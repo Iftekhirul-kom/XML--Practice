@@ -1,0 +1,12 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<config>
+    <theme>
+        <primaryColor>#3498db</primaryColor> <!-- Blue color -->
+        <fontSize>16</fontSize> <!-- In pixels -->
+        <darkMode>false</darkMode> <!-- Boolean: true/false -->
+    </theme>
+    <api>
+    <endpoint>https://api.example.com/data</endpoint>
+    <timeout>5000</timeout> <!-- In milliseconds -->
+    </api>
+</config>
