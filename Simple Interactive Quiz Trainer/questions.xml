@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="questions.xsl"?>
+<interview>
+<topic name="XML Basics">
+    <question id="q1">
+        <text>What does XML stand for?</text>
+        <answer>eXtensible Markup Language</answer>
+        <difficulty>Easy</difficulty>
+    </question>
+    <question id="q2">
+        <text>Is XML a markup language or a programming language?</text>
+        <answer>Markup language</answer>
+        <difficulty>Easy</difficulty>
+    </question>
+</topic>
+<topic name="XSLT & XPath">
+    <question id="q3">
+        <text>What are the main features of XML?</text>
+        <answer>Some of the main features of XML include: it is platform-independent, it allows for custom tags, it supports hierarchical data structures, and it is extensible.</answer>
+        <difficulty>Medium</difficulty>
+    </question>
+    <question id="q4">
+        <text>What is XSLT and how is it used?</text>
+        <answer>XSLT (eXtensible Stylesheet Language Transformations) is a language for transforming XML documents into other formats such as HTML, plain text, or another XML document. It is used to apply styles and formatting to XML data.</answer>
+        <difficulty>Medium</difficulty>
+    </question>
+    <question id="q5">
+        <text>What is XPath and how does it relate to XML?</text>
+        <answer>XPath (XML Path Language) is a language used for navigating through elements and attributes in an XML document. It allows you to select nodes or compute values from the XML document.</answer>
+        <difficulty>Medium</difficulty>
+    </question>
+    <question id="q6">
+        <text>Which axis is used to select the parent of the current node in XPath?</text>
+        <answer>parent::</answer>
+        <difficulty>medium</difficulty>
+    </question>
+    <question id="q7">
+        <text>Write an XPath to select all &lt;book&gt; elements whose price is greater than 30</text>
+        <answer>//book[price &gt; 30]</answer>
+        <difficulty>medium</difficulty>
+    </question>
+</topic>
+
+<topic name="Advanced / Practical">
+    <question id="q8">
+        <text>What is the difference between xsl:value-of and xsl:copy-of?</text>
+        <answer>value-of outputs string value, copy-of copies the whole subtree including tags</answer>
+        <difficulty>hard</difficulty>
+    </question>
+    <question id="q9">
+        <text>How do you include one XSLT stylesheet into another?</text>
+        <answer>Using &lt;xsl:include href="..." /&gt; or &lt;xsl:import href="..." /&gt;</answer>
+        <difficulty>hard</difficulty>
+    </question>
+</topic>
+</interview>

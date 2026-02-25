@@ -3,7 +3,7 @@
     <theme>
         <primaryColor>#3498db</primaryColor> <!-- Blue color -->
         <fontSize>16</fontSize> <!-- In pixels -->
-        <darkMode>false</darkMode> <!-- Boolean: true/false -->
+        <darkMode>true</darkMode> <!-- Boolean: true/false -->
     </theme>
     <api>
     <endpoint>https://api.example.com/data</endpoint>
